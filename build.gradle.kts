@@ -33,6 +33,12 @@ dependencies {
 
 	// Ftp server
 	implementation("org.apache.ftpserver:ftpserver-core:1.2.1")
+	implementation("org.apache.mina:mina-core:2.2.5")
+	implementation("org.apache.ftpserver:ftplet-api:1.2.1")
+
+	//logging
+	implementation("org.slf4j:slf4j-api:2.0.17")
+	testImplementation("org.slf4j:slf4j-simple:2.0.17")
 
 	// lombok
 	compileOnly("org.projectlombok:lombok")

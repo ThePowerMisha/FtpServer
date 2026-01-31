@@ -44,12 +44,12 @@ dependencies {
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
 
-	//Spring Test
-	testImplementation("org.springframework.boot:spring-boot-starter-jooq-test")
-	testImplementation("org.springframework.boot:spring-boot-starter-liquibase-test")
-	testImplementation("org.springframework.boot:spring-boot-starter-restclient-test")
-	testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test")
-	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+//	//Spring Test
+//	testImplementation("org.springframework.boot:spring-boot-starter-jooq-test")
+//	testImplementation("org.springframework.boot:spring-boot-starter-liquibase-test")
+//	testImplementation("org.springframework.boot:spring-boot-starter-restclient-test")
+//	testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test")
+//	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
 tasks.withType<Test> {
